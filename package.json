@@ -1,0 +1,12 @@
+{
+  "name": "chunk-ui-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "author": "",
+  "license": "ISC"
+}
