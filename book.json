@@ -1,0 +1,9 @@
+{
+  "title": "ChunkUI组件库",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro"
+  ],
+  "pluginConfig": {}
+}

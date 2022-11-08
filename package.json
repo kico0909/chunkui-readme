@@ -8,5 +8,9 @@
     "build": "gitbook build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ebook-convert": "^2.0.1",
+    "gitbook-plugin-search-pro": "^2.0.2"
+  }
 }
