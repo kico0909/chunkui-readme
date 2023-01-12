@@ -11,4 +11,8 @@
   * [格式化Json(show-json)](/pages/05_show-json.md)
   * [代码编辑器(code-ide)](/pages/06_code-ide.md)
 
+* 功能性(sys function)
+  * [ajax](/pages/sys01_ajax.md): 基于fetch的轻量化ajax组件
+  * [MQ](/pages/sys02_mq.md): 基于Vue3轻量化的组件间消息队列
+
 
