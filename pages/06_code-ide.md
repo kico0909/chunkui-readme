@@ -1,4 +1,4 @@
-# charts [代码编辑器]
+# codeIde [代码编辑器]
 
 ```
   基于CodeMirror的WebCodeIed，用于前端开发的各种业务。
