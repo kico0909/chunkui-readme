@@ -4,6 +4,10 @@
   基于CodeMirror的WebCodeIed，用于前端开发的各种业务。
 ```
 
+### 描述
+
+测试路由  /codeIde
+
 ### 调用方式
 
 ```html
