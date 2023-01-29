@@ -6,13 +6,14 @@
 
 ### 调用方式
 
-```javascript
-  import { ckPostMessage,  } from 'chunk-ui'
-  const mq = new ckMq()
-  mq.push('推送消息key', '消息体, 任意数据结构')
-  mq.listener('接收消息Key', (getter: ()=>any) => {
-    const data = getter() // 通过监听指定消息key, 获取指定key 的消息内容
-    // ..
+```typescript
+  import { ckPostMessage } from 'chunk-ui'
+  const ckPM = new ckPostMessage(Window)
+  ckPM.send('发送的消息Key', '发送的消息数据').then(rs => {
+    // 发送消息后得到的返回值
+  })
+  ckPM.on('要处理的消息key', (data: any) => {
+    // 接收到消息后的处理内动
   })
 ```
 
@@ -20,9 +21,9 @@
 
 ### 实例方法
 
-```javascript
-  push(key: string, data: any): void // 向队列中推送消息
-  lintener(key: string, func: (getter: () => string)=>void) // 注册监听并获得消息数据
+```typescript
+  send(key: string, data: any): void // 向iframe中推送消息
+  on(key: string, func: (d: any) => promise) // 处理指定消息的方法监听
 ```
 
 ### 插槽
