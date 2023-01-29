@@ -6,17 +6,17 @@
 
 ### 调用方式
 
-```javascript
-  import { ckMq } from 'chunk-ui'
+```typescript
+  import { ckAjax, TAjaxReturn } from 'chunk-ui'
   const ajax = new ckAjax()
-  ajax.post('url'): Promise<TAjaxReturn<T>>
+  ajax.post('url', '发送的数据'): Promise<TAjaxReturn<T>>
 ```
 
 ### 属性
 
 ### 实例方法
 
-```javascript
+```typescript
   setHeader({[key: string]: any}): void // 设置请求头
   post(url, params?, header?): Promise<TAjaxReturn<T>> // 发起post请求
   get(url, params?, header?): Promise<TAjaxReturn<T>> // 发起get请求

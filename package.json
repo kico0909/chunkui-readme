@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "gitbook serve",
     "build": "gitbook build",
-    "pdf": "gitbook pdf"
+    "pdf": "rm -rf ./book.pdf && gitbook pdf"
   },
   "author": "",
   "license": "ISC",
