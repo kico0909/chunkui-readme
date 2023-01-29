@@ -4,6 +4,10 @@
   基于CodeMirror的WebCodeIed，用于前端开发的各种业务。
 ```
 
+### 描述
+
+测试路由  /codeIde
+
 ### 调用方式
 
 ```html
@@ -24,7 +28,9 @@
 | height               | string  | 非必填 | 300        | 编辑器的高度                                                                                                           |
 | disabled             | boolean | 非必填 | false      | 是否禁用                                                                                                               |
 | language             | string  | 非必填 | javascript | 编辑器主要的语言提示，可选类型“javascript”，“json”，“css”，“html”，“java”，“sql”（目前开启选择模式，所以不必要请不传） |
-
+| tabSize             | number  | 非必填 |  | 缩进的tab数量，默认2，可传安全参数2,4,6,8 |
+| theme             | string  | 非必填 |  | codeIde主题，默认白色，可选参数：'default', 'oneDark' |
+| autofocus             | boolean  | 非必填 |  | 是否自动聚焦于编辑范围。默认true，自动聚焦 |
 ### 方法
 
 ```
