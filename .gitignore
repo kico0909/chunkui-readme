@@ -23,6 +23,7 @@ pnpm-debug.log*
 *.sw?
 node_modules
 dist.*
+*.pdf
 
 
 yarn.lock

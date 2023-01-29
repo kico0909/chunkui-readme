@@ -25,3 +25,7 @@
   * [charts](/pages/04_charts.md): Echarts的高级封装
   * [show-json](/pages/05_show-json.md): json格式化显示工具
   * [code-ide](/pages/06_code-ide.md): 基于CodeMirror的代码编辑工具
+
+* 功能性
+  * [ajax](/pages/sys01_ajax.md): 基于fetch的轻量化ajax组件
+  * [MQ](/pages/sys02_mq.md): 基于Vue3轻量化的组件间消息队列

@@ -1,5 +1,7 @@
 {
   "title": "ChunkUI组件库",
+  "author": "北极星团队",
+  "language" : "zh-hans",
   "plugins": [
     "-lunr",
     "-search",
