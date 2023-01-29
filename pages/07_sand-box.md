@@ -14,8 +14,8 @@
 
   |属性|类型|必填|默认值|说明|
   |-|-|-|-|-|
-  | url |number|非必填|200|显示区域的高度|
-  | json |object,string|必填|无|需要现实的json结构数据|
+  | url | number | 非必填 | 200 |显示区域的高度|
+  | limit | string | 非必填 | allow-scripts allow-forms allow-same-origin | 沙盒的限制条件, 默认只限制控制父级框架, 格式: "string string string", 可选值同iframe的sandbox选项 |
 
 
 ### 方法
