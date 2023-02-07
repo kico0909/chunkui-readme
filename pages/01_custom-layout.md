@@ -36,6 +36,7 @@
 |-|-|-|
 |colShow|data[object]: 配置的组件数据|-|
 |colSetup|component[object]: 组件的配置信息 <br> setCol[function]: 用于向布局中回存组件配置信息的回调函数|-|
+|tools|-|打开布局配置器时顶部可自定义配置工具栏|
 
 ##### 预览[view]模式下
 
