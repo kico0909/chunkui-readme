@@ -11,6 +11,7 @@
   * [格式化Json(show-json)](/pages/05_show-json.md)
   * [代码编辑器(code-ide)](/pages/06_code-ide.md)
   * [沙盒引用(sand-box)](/pages/07_sand-box.md)
+  * [超图GIS(cesium)](/pages/08_cesium.md)
 
 * 功能性(sys function)
   * [ajax](/pages/sys01_ajax.md): 基于fetch的轻量化ajax组件

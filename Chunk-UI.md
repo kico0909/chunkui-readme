@@ -36,6 +36,7 @@ ebook:
   * [show-json](/pages/05_show-json.md): json格式化显示工具
   * [code-ide](/pages/06_code-ide.md): 基于CodeMirror的代码编辑工具
   * [sand-box](/pages/07_sand-box.md): 沙盒引用
+  * [cesium](/pages/08_cesium.md): 超图组件
 
 * 功能性
   * [ajax](/pages/sys01_ajax.md): 基于fetch的轻量化ajax组件
